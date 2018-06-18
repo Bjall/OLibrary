@@ -1,0 +1,91 @@
+RewriteEngine On
+
+## SIGB ##
+RewriteRule ^sigb/$      index.php?page=Sigb&%{QUERY_STRING} [L]
+
+## Partie Admin ##
+RewriteRule ^admin/$      index.php?page=Admin&%{QUERY_STRING} [L]
+
+## SIGB Catalogue ##
+RewriteRule ^sigbcatalogue/$      index.php?page=Sigbcatalogue&%{QUERY_STRING} [L]
+
+## SIGB Modifier un livre ##
+RewriteRule ^sigbmodifierbook/$      index.php?page=Sigbmodifierbook&%{QUERY_STRING} [L]
+
+## SIGB Nouvel Utilisateur ##
+RewriteRule ^sigbnewuser/$      index.php?page=Sigbnewuser&%{QUERY_STRING} [L]
+
+## SIGB Vue Utilisateur ##
+RewriteRule ^sigbviewuser/$      index.php?page=Sigbviewuser&%{QUERY_STRING} [L]
+
+## SIGB Delete Utilisateur ##
+RewriteRule ^sigbdeleteuser/$      index.php?page=Sigbdeleteuser&%{QUERY_STRING} [L]
+
+## SIGB Modifier Utilisateur ##
+RewriteRule ^sigbmodifieruser/$      index.php?page=Sigbmodifieruser&%{QUERY_STRING} [L]
+
+## SIGB Zoom Utilisateur ##
+RewriteRule ^sigbzoomuser/$      index.php?page=Sigbzoomuser&%{QUERY_STRING} [L]
+
+
+## SIGB Acquisitions ##
+RewriteRule ^sigbacquisitions/$      index.php?page=Sigbacquisitions&%{QUERY_STRING} [L]
+
+## SIGB Circulation ##
+RewriteRule ^sigbcirculation/$      index.php?page=Sigbcirculation&%{QUERY_STRING} [L]
+
+## SIGB Emprunts ##
+RewriteRule ^sigbemprunts/$      index.php?page=Sigbemprunts&%{QUERY_STRING} [L]
+
+## SIGB Messages ##
+RewriteRule ^sigbmessages/$      index.php?page=Sigbmessages&%{QUERY_STRING} [L]
+
+
+
+
+## FRONT Inscription ##
+RewriteRule ^inscription/$      index.php?page=Inscription&%{QUERY_STRING} [L]
+
+## FRONT Conditions ##
+RewriteRule ^conditions/$      index.php?page=Conditions&%{QUERY_STRING} [L]
+
+## FRONT Connexion ##
+RewriteRule ^connexion/$      index.php?page=Connexion&%{QUERY_STRING} [L]
+
+## FRONT Deconnexion ##
+RewriteRule ^deconnexion/$      index.php?page=Deconnexion&%{QUERY_STRING} [L]
+
+## FRONT Forget Password ##
+RewriteRule ^forgetpass/$      index.php?page=Forgetpass&%{QUERY_STRING} [L]
+
+## FRONT Résultats ##
+RewriteRule ^resultats/$      index.php?page=Resultats&%{QUERY_STRING} [L]
+
+## FRONT Résultats filtrés ##
+RewriteRule ^filtres/$      index.php?page=Filtres&%{QUERY_STRING} [L]
+
+## FRONT Document ##
+RewriteRule ^document/$      index.php?page=Document&%{QUERY_STRING} [L]
+
+## FRONT Reserver ##
+RewriteRule ^reserver/$      index.php?page=Reserver&%{QUERY_STRING} [L]
+
+## FRONT Espace perso ##
+RewriteRule ^espaceperso/$      index.php?page=Espaceperso&%{QUERY_STRING} [L]
+
+## FRONT Mon profil ##
+RewriteRule ^monprofil/$      index.php?page=Monprofil&%{QUERY_STRING} [L]
+
+## FRONT Edit profil ##
+RewriteRule ^editprofil/$      index.php?page=Editprofil&%{QUERY_STRING} [L]
+
+## FRONT Mon suivi ##
+RewriteRule ^monsuivi/$      index.php?page=Monsuivi&%{QUERY_STRING} [L]
+
+## FRONT Mes réservations ##
+RewriteRule ^reservations/$      index.php?page=Reservations&%{QUERY_STRING} [L]
+
+## FRONT Contact ##
+RewriteRule ^contact/$      index.php?page=Contact&%{QUERY_STRING} [L]
+
+

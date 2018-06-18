@@ -1,0 +1,31 @@
+RewriteEngine On
+
+## Partie Admin ##
+RewriteRule ^admin/$      index.php?page=Admin&%{QUERY_STRING} [L]
+
+## SIGB Catalogue ##
+RewriteRule ^sigbcatalogue/$      index.php?page=Sigbcatalogue&%{QUERY_STRING} [L]
+
+## SIGB Modifier un livre ##
+RewriteRule ^sigbmodifierbook/$      index.php?page=Sigbmodifierbook&%{QUERY_STRING} [L]
+
+## SIGB Nouvel Utilisateur ##
+RewriteRule ^sigbnewuser/$      index.php?page=Sigbnewuser&%{QUERY_STRING} [L]
+
+## SIGB Vue Utilisateur ##
+RewriteRule ^sigbviewuser/$      index.php?page=Sigbviewuser&%{QUERY_STRING} [L]
+
+## SIGB Delete Utilisateur ##
+RewriteRule ^sigbdeleteuser/$      index.php?page=Sigbdeleteuser&%{QUERY_STRING} [L]
+
+## SIGB Modifier Utilisateur ##
+RewriteRule ^sigbmodifieruser/$      index.php?page=Sigbmodifieruser&%{QUERY_STRING} [L]
+
+## SIGB Acquisitions ##
+RewriteRule ^sigbacquisitions/$      index.php?page=Sigbacquisitions&%{QUERY_STRING} [L]
+
+## SIGB Circulation ##
+RewriteRule ^sigbcirculation/$      index.php?page=Sigbcirculation&%{QUERY_STRING} [L]
+
+## SIGB Emprunts ##
+RewriteRule ^sigbemprunts/$      index.php?page=Sigbemprunts&%{QUERY_STRING} [L]

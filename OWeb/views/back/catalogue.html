@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">	
+	<title>SIGB - Catalogue</title>
+	<link rel="stylesheet" type="text/css" href="../../css/styleback.css">
+</head>
+
+
+
+<body>
+
+	<div class="container" id="catalogue">
+
+		<div id="catalogue_input">
+			<form method="post" action="">
+				<div id="catalogue_input_gauche">
+					<p>
+						<label for="titre">Titre</label><br>
+						<input type="text" name="titre">
+					</p>
+					<p>
+						<label for="auteur">Auteur</label><br>
+						<input type="text" name="auteur">
+					</p>
+					<p>
+						<label for="editeur">Editeur</label><br>
+						<input type="text" name="editeur">
+					</p>
+				</div>	<!-- CATALOGUE_INPUT_GAUCHE -->
+
+				<div id="catalogue_input_droite">
+					<p>
+						<label for="date_publication">Date de publication</label><br>
+						<input type="date" name="date_publication">
+					</p>
+					<p>
+						<input type="checkbox" name="periodiques">
+						<label for="periodiques">Chercher dans les périodiques</label>
+					</p>
+					<p>
+						<input type="submit" name="rechercher" value="Rechercher">
+					</p>
+				</div>	<!-- CATALOGUE_INPUT_DROITE -->
+			</form>
+		</div> <!-- CATALOGUE_INPUT -->
+
+
+		<div id="catalogue_tableau">
+			<table>
+				<caption>Résultats de la recherche</caption>
+				<thead>
+					<tr>
+						<th class="titres_etroits">
+							N°
+						</th>
+						<th class="titres_larges">
+							Titre
+						</th>
+						<th class="titres_larges">
+							Sous-titre
+						</th>
+						<th class="titres_larges">
+							Auteur
+						</th>
+						<th>
+							Catégories
+						</th>
+						<th>
+							Statut
+						</th>
+						<th id="compense_scroll"  class="titres_etroits">
+							 
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="titres_etroits">
+							01
+						</td>
+						<td class="titres_larges">
+							Harry-Potter 
+						</td>
+						<td class="titres_larges">
+							A l'école des sorciers
+						</td>
+						<td class="titres_larges">
+							J.K Rowling
+						</td>
+						<td>
+							Roman
+						</td>
+						<td>
+							Disponible
+						</td>
+						<td class="titres_etroits">
+							<a href=""><img src="img/pencil.png" width="15px" height="15px" alt="modifier"></a>
+						</td>
+					</tr>
+					<tr>
+						<td class="titres_etroits">
+							02
+						</td>
+						<td class="titres_larges">
+							Bambi 
+						</td>
+						<td class="titres_larges">
+							Dans la forêt
+						</td>
+						<td class="titres_larges">
+							L'auteur de Bambi
+						</td>
+						<td>
+							Jeunesse
+						</td>
+						<td>
+							Indisponible
+						</td>
+						<td class="titres_etroits">
+							<a href=""><img src="img/pencil.png" width="15px" height="15px" alt="modifier"></a>
+						</td>
+					</tr>
+					<tr>
+						<td class="titres_etroits">
+							03
+						</td>
+						<td class="titres_larges">
+							Tintin
+						</td>
+						<td class="titres_larges">
+							A l'école des sorciers
+						</td>
+						<td class="titres_larges">
+							Milou
+						</td>
+						<td>
+							BD
+						</td>
+						<td>
+							Disponible
+						</td>
+						<td class="titres_etroits">
+							<a href=""><img src="img/pencil.png" width="15px" height="15px" alt="modifier"></a>
+						</td>
+					</tr>
+					<tr>
+						<td class="titres_etroits">
+							04
+						</td>
+						<td class="titres_larges">
+							Astérix
+						</td>
+						<td class="titres_larges">
+							Et le chaudron magique
+						</td>
+						<td class="titres_larges">
+							Idéfix
+						</td>
+						<td>
+							BD
+						</td>
+						<td>
+							Disponible
+						</td>
+						<td class="titres_etroits">
+							<a href=""><img src="img/pencil.png" width="15px" height="15px" alt="modifier"></a>
+						</td>
+					</tr>
+					<tr>
+						<td class="titres_etroits">
+							01
+						</td>
+						<td class="titres_larges">
+							Harry-Potter 
+						</td>
+						<td class="titres_larges">
+							A l'école des sorciers
+						</td>
+						<td class="titres_larges">
+							J.K Rowling
+						</td>
+						<td>
+							Roman
+						</td>
+						<td>
+							Disponible
+						</td>
+						<td class="titres_etroits">
+							<a href=""><img src="img/pencil.png" width="15px" height="15px" alt="modifier"></a>
+						</td>
+					</tr>
+					<tr>
+						<td class="titres_etroits">
+							02
+						</td>
+						<td class="titres_larges">
+							Bambi 
+						</td>
+						<td class="titres_larges">
+							Dans la forêt
+						</td>
+						<td class="titres_larges">
+							L'auteur de Bambi
+						</td>
+						<td>
+							Jeunesse
+						</td>
+						<td>
+							Indisponible
+						</td>
+						<td class="titres_etroits">
+							<a href=""><img src="img/pencil.png" width="15px" height="15px" alt="modifier"></a>
+						</td>
+					</tr>
+					<tr>
+						<td class="titres_etroits">
+							03
+						</td>
+						<td class="titres_larges">
+							Tintin
+						</td>
+						<td class="titres_larges">
+							A l'école des sorciers
+						</td>
+						<td class="titres_larges">
+							Milou
+						</td>
+						<td>
+							BD
+						</td>
+						<td>
+							Disponible
+						</td>
+						<td class="titres_etroits">
+							<a href=""><img src="img/pencil.png" width="15px" height="15px" alt="modifier"></a>
+						</td>
+					</tr>
+					<tr>
+						<td class="titres_etroits">
+							04
+						</td>
+						<td class="titres_larges">
+							Astérix
+						</td>
+						<td class="titres_larges">
+							Et le chaudron magique
+						</td>
+						<td class="titres_larges">
+							Idéfix
+						</td>
+						<td>
+							BD
+						</td>
+						<td>
+							Disponible
+						</td>
+						<td class="titres_etroits">
+							<a href=""><img src="img/pencil.png" width="15px" height="15px" alt="modifier"></a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+	</div> <!-- CONTAINER -->
+
+</body>
+
+</html>

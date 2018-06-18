@@ -1,0 +1,141 @@
+body{
+	margin: 0;
+	background-color: #666666;
+}
+.container{
+	width: 1100px;
+	
+	height: 400px;
+	margin: auto;
+	margin-top: 200px;
+	padding-top: 10px;
+
+	border: 2px black solid;
+	background-color: #cccccc;
+}
+.vert{
+	color: #009933;
+}
+.orange{
+	color: #ff6600;
+}
+.rouge{
+	color: #e60000;
+}
+
+/*CATALOGUE SIGB*/
+
+#catalogue_input{
+	width: 1000px;
+	margin: auto;
+
+}
+#catalogue_input form{
+	width: 100%;
+
+	display: flex;
+	flex: nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#catalogue_input_gauche, #catalogue_input_droite{
+	width: 450px;
+}
+#catalogue_input_gauche input{
+	width: 100%
+}
+
+#catalogue_tableau{
+	width: 1000px;
+
+	margin: auto;
+
+	table-layout: fixed;
+}
+table{
+	width: 100%;
+
+	background-color: white;
+	border: 1px #666666 solid;
+	border-collapse: collapse;
+}
+thead{
+	background-color: #99ddff;
+	display: block;
+}
+tbody{
+	height: 165px;
+    overflow: auto;
+    display: block;
+}
+#tbody_vue_utilisateur{
+	height: 275px;
+}
+#table_vue_users{
+	margin-top: 20px;
+}
+td, th{
+	width: 170px;
+	text-align: center;
+}
+th{
+	height: 30px;
+}
+td{
+	border-top: 1px #666666 solid;
+}
+#compense_scroll{
+	width: 120px;
+}
+.titres_etroits{
+	width: 100px;
+}
+.titres_larges{
+	width: 270px;
+}
+table caption{
+	font-weight: bold;
+	margin: 10px;
+}
+
+tr:nth-child(even){
+	background-color: #e6e6e6
+}
+
+/* -- UTILISATEURS SIGB -- */
+
+.add_user{
+	display: flex;
+	justify-content: space-between;
+}
+#add_user_first_form{
+	width: 900px;
+}
+.add_user_colonne{
+	width: 320px;
+}
+.add_user_colonne_gauche input{
+	width: 100%;
+}
+#coordonnees input{
+	margin-bottom: 5px;
+}
+#cp{
+	width: 30%;
+	display: inline-block;
+}
+#ville{
+	width: 68%;
+	display: inline-block;
+	float: right;
+}
+#view_users{
+	margin-bottom: 80px;
+}
+#alert_view_user{
+	float: right;
+}
+.inline{
+	display: inline-block !important;
+}
