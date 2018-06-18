@@ -1,2 +1,8 @@
-# OLibrary
-Projet de gestion de bibliothèque - PHP
+# OLibraryprojet
+Projet avec :
+-Mafat Rémi
+-Jallet Benoit
+-Toulouze Simon
+-Comat Clément
+-Pouget Aldric
+Ingesup B1B
